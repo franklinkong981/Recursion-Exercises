@@ -36,7 +36,7 @@ describe("everyOther", function() {
   });
 });
 
-/*describe("isPalindrome", function() {
+describe("isPalindrome", function() {
   it("returns true if the string is a palindrome", function() {
     expect(isPalindrome("tacocat")).toBe(true);
     expect(isPalindrome("racecar")).toBe(true);
@@ -51,7 +51,7 @@ describe("everyOther", function() {
   });
 });
 
-describe("findIndex", function() {
+/*describe("findIndex", function() {
   let animals = ["duck", "cat", "pony", "cat"];
 
   it("returns the first index of the value in the array if the value exists", function() {
