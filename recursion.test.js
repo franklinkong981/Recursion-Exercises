@@ -51,7 +51,7 @@ describe("isPalindrome", function() {
   });
 });
 
-/*describe("findIndex", function() {
+describe("findIndex", function() {
   let animals = ["duck", "cat", "pony", "cat"];
 
   it("returns the first index of the value in the array if the value exists", function() {
@@ -66,7 +66,7 @@ describe("isPalindrome", function() {
   });
 });
 
-describe("revString", function() {
+/*describe("revString", function() {
   it("returns a reversed copy of the string", function() {
     expect(revString("porcupine")).toBe("enipucrop");
     expect(revString("duck")).toBe("kcud");
