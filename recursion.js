@@ -12,7 +12,17 @@ function product(nums) {
 /** longest: return the length of the longest word in an array of words. */
 
 function longest(words) {
+  let firstLength = words[0].length;
+  if (words.length == 1) {
+    return firstLength;
+  }
 
+  let longestOfRest = longest(words.slice(1));
+  if (firstLength > longestOfRest) {
+    return firstLength;
+  } else {
+    return longestOfRest;
+  }
 }
 
 /** everyOther: return a string with every other letter. */

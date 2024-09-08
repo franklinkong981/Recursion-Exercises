@@ -17,7 +17,7 @@ describe("product", function() {
   });
 });
 
-/*describe("longest", function() {
+describe("longest", function() {
   it("returns the length of the longest word in an array of words", function() {
     expect(longest(["hello", "hi", "hola"])).toBe(5);
     expect(longest(["abcdefg", "hijklmnop", "qrs", "tuv", "wx", "y", "z"])).toBe(9);
@@ -26,7 +26,7 @@ describe("product", function() {
   });
 });
 
-describe("everyOther", function() {
+/*describe("everyOther", function() {
   it("returns a string with every other character in the input", function() {
     expect(everyOther("hello")).toBe("hlo");
     expect(everyOther("banana stand")).toBe("bnn tn");
