@@ -26,7 +26,7 @@ describe("longest", function() {
   });
 });
 
-/*describe("everyOther", function() {
+describe("everyOther", function() {
   it("returns a string with every other character in the input", function() {
     expect(everyOther("hello")).toBe("hlo");
     expect(everyOther("banana stand")).toBe("bnn tn");
@@ -36,7 +36,7 @@ describe("longest", function() {
   });
 });
 
-describe("isPalindrome", function() {
+/*describe("isPalindrome", function() {
   it("returns true if the string is a palindrome", function() {
     expect(isPalindrome("tacocat")).toBe(true);
     expect(isPalindrome("racecar")).toBe(true);
