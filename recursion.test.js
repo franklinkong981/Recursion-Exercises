@@ -66,7 +66,7 @@ describe("findIndex", function() {
   });
 });
 
-/*describe("revString", function() {
+describe("revString", function() {
   it("returns a reversed copy of the string", function() {
     expect(revString("porcupine")).toBe("enipucrop");
     expect(revString("duck")).toBe("kcud");
@@ -75,7 +75,7 @@ describe("findIndex", function() {
   });
 });
 
-describe("gatherStrings", function() {
+/*describe("gatherStrings", function() {
   it("gathers all object string values into an array", function() {
     let whiskey = {
       name: "Whiskey",
