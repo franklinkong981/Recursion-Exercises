@@ -75,7 +75,7 @@ describe("revString", function() {
   });
 });
 
-/*describe("gatherStrings", function() {
+describe("gatherStrings", function() {
   it("gathers all object string values into an array", function() {
     let whiskey = {
       name: "Whiskey",
@@ -110,7 +110,7 @@ describe("revString", function() {
   });
 });
 
-describe("binarySearch", function () {
+/*describe("binarySearch", function () {
   it("should find the index of a value in a sorted array", function() {
     expect(binarySearch([1, 2, 3, 4], 4)).toEqual(3);
     expect(binarySearch([1, 2], 1)).toEqual(0);
