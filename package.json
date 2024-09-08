@@ -1,0 +1,15 @@
+{
+  "name": "recursion-exercises",
+  "version": "1.0.0",
+  "description": "Repo consisting of recursive solutions to several problems to practice recursion.",
+  "main": "recursion.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
