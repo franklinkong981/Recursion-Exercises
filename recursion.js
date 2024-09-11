@@ -114,6 +114,16 @@ function binarySearch(arr, val, left = 0, right = arr.length - 1) {
   }
 }
 
+function replicate(times, number) {
+  if (times <= 0) {
+    return [];
+  }
+  else {
+    return [number, ...replicate(times-1, number)];
+    //return [number].concat(replicate(times - 1, number));
+  }
+}
+
 module.exports = {
   product,
   longest,
@@ -122,5 +132,6 @@ module.exports = {
   findIndex,
   revString,
   gatherStrings,
-  binarySearch
+  binarySearch,
+  replicate
 };

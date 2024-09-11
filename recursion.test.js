@@ -6,7 +6,8 @@ const {
   findIndex,
   revString,
   gatherStrings,
-  binarySearch
+  binarySearch,
+  replicate
 } = require("./recursion");
 
 describe("product", function() {
@@ -120,5 +121,17 @@ describe("binarySearch", function () {
   it("should return -1 if the value is not found", function() {
     expect(binarySearch([1, 2, 3, 4], 0)).toEqual(-1);
     expect(binarySearch([1, 2], 11)).toEqual(-1);
+  });
+});
+
+describe("replicate", function() {
+  it("should return the array where all items are the number parameter, and the length should be equal to the times parameter", function() {
+    expect(replicate(3, 5)).toEqual([5,5,5]);
+    expect(replicate(7,2)).toEqual([2,2,2,2,2,2,2]);
+  });
+  
+  it("should return an empty array if the times parameter is 0 or negative", function() {
+    expect(replicate(0,5)).toEqual([]);
+    expect(replicate(-10,2)).toEqual([]);
   });
 });
