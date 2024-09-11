@@ -110,7 +110,7 @@ describe("gatherStrings", function() {
   });
 });
 
-/*describe("binarySearch", function () {
+describe("binarySearch", function () {
   it("should find the index of a value in a sorted array", function() {
     expect(binarySearch([1, 2, 3, 4], 4)).toEqual(3);
     expect(binarySearch([1, 2], 1)).toEqual(0);
@@ -122,4 +122,3 @@ describe("gatherStrings", function() {
     expect(binarySearch([1, 2], 11)).toEqual(-1);
   });
 });
-*/
